@@ -1,0 +1,138 @@
+
+
+html,body{
+min-width: 100px;
+background-color: rgb(14, 12, 12);
+font-family: 'Open Sans',Arial,sans-serif;
+
+}
+header{
+ text-align: center;
+ color: white;
+ margin: 5px;
+font-size:28px;
+font-weight:bold; 
+}
+.c1{ margin-left: 60px;}
+.c2{ margin-left: 60px;}
+#navbar{
+ position: fixed;
+ width:300px;
+ height: 100%;
+ border-right: solid darkcyan;
+ top: 0px;
+ left: 0px;
+ min-width:300px;
+}
+#navbar ul{
+height:80%;
+overflow-y:auto;
+overflow-x:hidden;
+margin-left: 20px;
+}
+#navbar li{
+list-style: none;
+color:gold;
+border:1px solid  darkcyan;
+width: 100%;
+position: relative;
+font-size: 20px;
+padding:8px;
+padding-left:45px;
+list-style: none;
+left:-50px;
+}
+
+#navbar ul a{
+ text-decoration: none;
+ }
+#navbar ul li:hover{
+  background-color: salmon;
+}
+#main-doc{
+position:absolute;
+  margin-left:310px;
+padding:30px;
+font-size: 25px;
+margin-bottom: 100px;
+
+}
+.co1 { color:rgb(223, 170, 100);}
+.co2{ color:  rgb(223, 170, 100);}
+.val { margin-left: 80px;
+    list-style-type: circle;}
+#main-doc header{
+ text-align:left;
+ color: white;
+}
+code{
+display:block;
+text-align: left;
+white-space:pre ;
+position: relative;
+word-break: normal;
+word-wrap: normal;
+line-height: 2;
+background-color:#f7f7f7;
+padding:15px;
+margin:10px;
+border-radius:5px;
+font-size: 15px;
+color: rgb(243, 6, 6);
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+;
+font-style: oblique;}
+section article{
+   color: rgb(223, 170, 100);
+   margin: 20px;
+}
+section p{
+   margin: 18px;
+   font-size: 20px;
+}
+section li{
+   margin: 25px;
+   font-size: 18px;
+}
+section h4{
+   padding: 10px;
+   color: rgb(106, 170, 131);
+font-size:20px;
+}
+  @media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+#navbar ul{
+       border:1px solid;
+        } 
+#navbar{
+background-color:white;
+position:absolute;
+top:0;
+padding:0;
+margin: 0;
+width:100%;
+max-height:300px;
+border:none;
+z-index:1;
+border-bottom:1px solid;
+} 
+#main-doc{
+position: relative;
+margin-left:0px;
+margin-top:280px;
+background-color: white;
+}
+}
+@media only screen and (max-width: 500px) {
+#main-doc{
+margin-left:-30px;
+}
+code{
+margin-left:-10px;
+width:100%;
+padding:15px;
+padding-left:10px;
+padding-right:45px;
+min-width:233px;
+}
+} 
